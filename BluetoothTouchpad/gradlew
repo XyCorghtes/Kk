@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Simple gradle wrapper script for building the project
+# This requires Android SDK to be installed
+
+echo "=================================================="
+echo "  蓝牙触控板 APK 构建脚本"
+echo "=================================================="
+echo ""
+echo "注意：构建 APK 需要安装 Android SDK 和 Gradle"
+echo ""
+echo "如果您已安装 Android Studio，请运行:"
+echo "  cd /workspace/BluetoothTouchpad"
+echo "  ./gradlew assembleDebug"
+echo ""
+echo "或者使用 Android Studio:"
+echo "  1. 打开 Android Studio"
+echo "  2. File -> Open -> 选择 BluetoothTouchpad 文件夹"
+echo "  3. 等待 Gradle 同步完成"
+echo "  4. Build -> Build Bundle(s) / APK(s) -> Build APK(s)"
+echo ""
+echo "APK 将生成在：app/build/outputs/apk/debug/app-debug.apk"
+echo "=================================================="

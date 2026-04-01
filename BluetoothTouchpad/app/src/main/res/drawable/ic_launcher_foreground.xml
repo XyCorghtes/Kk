@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Bluetooth icon -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M54,20 L54,45 L75,25 L75,23 L56,5 L56,20 Z M54,45 L75,65 L75,63 L54,43 Z M54,43 L35,25 L35,23 L54,41 Z M54,65 L54,88 L56,88 L56,67 L75,85 L75,83 Z"/>
+    
+    <!-- Touch pad outline -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M30,70 L78,70 L78,95 L30,95 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#ffffff"/>
+</vector>
