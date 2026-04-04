@@ -215,9 +215,9 @@ public class MainActivity extends AppCompatActivity {
     private void sendTouchEvent(char type, float x, float y, int pointerCount) {
         if (connectedThread == null) return;
         
-        // Format: T(type)(x:0.000)(y:0.000)(pointers:00)
-        // Example: TD0.50000.75001
-        String message = String.format("T%c%.6f%.6f%02d", type, x, y, pointerCount);
+        // Format: T|type|x|y|pointers
+        // Example: T|D|0.500000|0.750000|1
+        String message = String.format("T|%c|%.6f|%.6f|%d", type, x, y, pointerCount);
         connectedThread.write(message.getBytes());
     }
     
