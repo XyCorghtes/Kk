@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "sessions": {
+    "b64473bbbb78454b87da7884d566e8ae": [
+      {
+        "expertId": "GitWorkflowExpert",
+        "name": "Ruby",
+        "profession": "Git工作流专家",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/GitWorkflowExpert/GitWorkflowExpert.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/GitWorkflowExpert/GitWorkflowExpert_zh.md",
+        "usedAt": 1775336147550,
+        "industryId": "all"
+      }
+    ],
+    "8bc28ec4b51d416da82376e2980f76da": [
+      {
+        "expertId": "GitWorkflowExpert",
+        "name": "Ruby",
+        "profession": "Git工作流专家",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/GitWorkflowExpert/GitWorkflowExpert.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/GitWorkflowExpert/GitWorkflowExpert_zh.md",
+        "usedAt": 1775336147548,
+        "industryId": "all"
+      }
+    ]
+  },
+  "lastUpdated": 1775336752057
+}
