@@ -325,7 +325,7 @@ public class MainActivity extends AppCompatActivity {
         public void run() {
             // Keep connection alive, data is only sent from phone to computer
             try {
-                while (connected && !socket.isClosed()) {
+                while (connected) {
                     sleep(100);
                 }
             } catch (InterruptedException e) {
