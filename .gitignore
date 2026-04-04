@@ -1,6 +1,8 @@
 ```
 # Build artifacts
 build/
+bin/
+obj/
 dist/
 target/
 
@@ -43,3 +45,5 @@ venv/
 .DS_Store
 Thumbs.db
 ```
+
+workbuddy/
